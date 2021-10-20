@@ -22,6 +22,7 @@ namespace crudSqlite
         }
         private void btnSave_Click(object sender, EventArgs e)
         {
+            wsProdcutos.store() ws = new wsProducto();
             if(txtId.Text.Length != 0)
             {
                 string sql = "SELECT Nombre, Precio FROM Producto WHERE id_producto=@id";

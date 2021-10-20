@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crudSqlite", "crudSqlite\crudSqlite.csproj", "{34DD6003-2382-4893-84A1-F922F6AACA9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wsProducto", "wsProducto\wsProducto.csproj", "{BA39F582-A2D1-4D96-89A1-FA01326C9ED8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wsProductos", "wsProducto\wsProductos.csproj", "{BA39F582-A2D1-4D96-89A1-FA01326C9ED8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
