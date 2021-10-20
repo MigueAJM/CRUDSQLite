@@ -102,9 +102,17 @@ namespace crudSqlite
         }
         private void dgvProduct_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtId.Text = dgvProduct.SelectedRows[0].Cells[0].Value.ToString();
-            txtName.Text = dgvProduct.SelectedRows[0].Cells[1].Value.ToString();
-            txtPrice.Text = dgvProduct.SelectedRows[0].Cells[2].Value.ToString();
+            try
+            {
+                txtId.Text = dgvProduct.SelectedRows[0].Cells[0].Value.ToString();
+                txtName.Text = dgvProduct.SelectedRows[0].Cells[1].Value.ToString();
+                txtPrice.Text = dgvProduct.SelectedRows[0].Cells[2].Value.ToString();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("error", ex.ToString());
+            }
+            
         }
 
         public void cleanData()
